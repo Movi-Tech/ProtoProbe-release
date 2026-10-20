@@ -1,5 +1,4 @@
-Termos de Uso do ProtoProbe, versão 1
-Vigentes desde a publicação da versão 1
+Versão 2, de 13 de outubro de 2026
 
 1\. QUEM OFERECE O PROTOPROBE
 
@@ -59,7 +58,7 @@ O modo Servidor simula um equipamento. O Usuário deve usá-lo de modo que ningu
 
 Os dados que o Programa grava ficam no computador do Usuário: o espaço de trabalho, os projetos, os equipamentos, as tags, os arquivos que o Usuário exporta, as preferências e o registro de funcionamento do Programa. Esses arquivos podem conter nome de equipamento e endereço de rede. A Movi não recebe nem tem acesso a esses arquivos.
 
-O Programa não coleta telemetria, não envia relatório de falha e não envia dado do Usuário à Movi nem a terceiros. A única comunicação que ele inicia por conta própria é a consulta e o download de atualizações do próprio Programa, nos endereços do GitHub, quando essa função estiver disponível; as ferramentas de rede que o Usuário aciona, como o teste de conexão com um equipamento, falam com o endereço que ele mesmo informar. Para apagar os dados locais, o Usuário apaga a pasta ProtoProbe em %LOCALAPPDATA%, os arquivos que exportou e as pastas de projeto que criou.
+O Programa não coleta telemetria, não envia relatório de falha e não envia dado do Usuário à Movi nem a terceiros. A única comunicação que ele inicia por conta própria é a consulta e o download de atualizações do próprio Programa, nos endereços do GitHub, quando essa função estiver disponível; as ferramentas de rede que o Usuário aciona, como o teste de conexão com um equipamento, falam com o endereço que ele mesmo informar. Para apagar os dados locais, o Usuário apaga a pasta ProtoProbe em %LOCALAPPDATA%, os arquivos que exportou e as pastas de projeto que criou. Na versão portátil, os dados locais ficam na pasta do programa, e o Usuário os apaga apagando essa pasta.
 
 Se a Movi vier a tratar dados pessoais do Usuário, por exemplo para emitir uma licença, fará isso conforme a Lei Geral de Proteção de Dados (Lei nº 13.709/2018) e informará o Usuário antes.
 
