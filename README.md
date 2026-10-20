@@ -25,6 +25,16 @@ Baixe o instalador (`ProtoProbe-v<versão>-setup.exe`) e o arquivo `.sha256` que
 
 Requisito: Windows 10 ou 11, 64 bits.
 
+### Portátil
+
+A partir da 0.15, a página de versões traz também `ProtoProbe-v<versão>-portable.zip`, com o seu `.sha256`, para usar o programa sem instalar:
+
+1. Baixe o `.zip` e confira o SHA-256.
+2. Extraia tudo para uma pasta, de preferência perto da raiz do disco ou num pen drive.
+3. Abra o `ProtoProbe.exe` e aceite os [Termos de Uso](TERMOS-DE-USO.md).
+
+As preferências ficam em `ProtoProbe.ini` e o espaço de trabalho e a biblioteca de equipamentos, na pasta `dados`, ao lado do programa. Para atualizar, extraia o zip novo por cima da pasta. Para apagar tudo, apague a pasta.
+
 ## Aviso do SmartScreen
 
 Hoje o instalador não tem certificado de assinatura de código. Por isso, na primeira execução, o Windows mostra o aviso "O Windows protegeu seu computador". Para continuar:
@@ -48,45 +58,19 @@ Esta lista mostra a direção do ProtoProbe, versão por versão. Sem compromiss
 
 Uma linha nova no fim da tabela, para digitar ou colar tags; tempo limite e tentativas ajustáveis em cada aba; aceite dos Termos de Uso; menu Ajuda com a tela Sobre. Toda versão nova passa primeiro por um teste público ("Em Teste") antes de chegar a quem usa. A versão mais nova está sempre na página de releases.
 
-### 0.14.1
+### 0.15
 
-Árvore do projeto: equipamentos, variáveis, gráficos e pastas numa árvore ao lado, como no TIA Portal.
+- árvore do projeto: equipamentos, variáveis, gráficos e pastas numa árvore ao lado, como no TIA Portal;
+- biblioteca de equipamentos: salve as tags e a conexão de um modelo e reaproveite depois, informando só o endereço;
+- modo portátil: o programa roda sem instalar, de uma pasta ou de um pen drive, e sugere a instalação;
+- simulação no Servidor: cada variável pode variar sozinha (aleatória, rampa, senoide e outros tipos) para imitar um equipamento real;
+- vários servidores TCP ao mesmo tempo, cada um na sua porta ou endereço;
+- Localizar Equipamentos melhor: um ID que não responde não interrompe a busca, há escolha do método de busca (leitura, FC43 ou FC17) e a tabela mostra só quem respondeu;
+- faixas de endereço: Ping com IP de início e de fim, Telnet com porta de início e de fim, e Localizar Equipamentos com as duas faixas.
 
-### 0.14.2
-
-Biblioteca de equipamentos: salve as tags e a conexão de um modelo de equipamento e reaproveite depois, informando só o endereço.
-
-### 0.14.3
-
-Modo portátil: o programa roda sem instalar, de uma pasta ou de um pen drive, e sugere a instalação.
-
-### 0.14.4
-
-Simulação no Servidor: cada variável pode variar sozinha (aleatória, rampa, senoide e outros tipos) para imitar um equipamento real.
-
-### 0.14.5
-
-Vários servidores TCP ao mesmo tempo, cada um na sua porta ou endereço.
-
-### 0.14.6
-
-Localizar Equipamentos melhor:
-
-- um ID que não responde não interrompe a busca;
-- escolha do método de busca (leitura, FC43 ou FC17);
-- a tabela mostra só quem respondeu.
-
-### 0.14.7
+### Depois da 0.15
 
 Atualizações assinadas: o programa só aceita atualização publicada pela Movi Automação.
-
-### 0.14.8
-
-Faixas de endereço:
-
-- Ping com IP de início e IP de fim;
-- Telnet com porta de início e porta de fim;
-- Localizar Equipamentos com as duas faixas.
 
 ### Depois
 
